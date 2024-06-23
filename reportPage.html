@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>rebort a location</title>
+  <style>
+    .h
+    {
+
+      margin:10px;
+      padding:5px;
+    }
+    #h11
+    {
+      float:left;
+      border:2px solid black;
+      background-color:lightblue;
+      padding:1em;
+
+      }
+    #h12
+    {
+      float:right;
+      border:2px solid black;;
+      background-color:lightblue;
+      padding :1em;
+    }
+    .ar
+    {
+      float:right;
+      font-size:15pt;
+      font-weight:bold;
+      border:5px;
+
+    }
+
+    .en
+    {
+       float: left;
+       margin: 10px;
+       font-size:15pt;
+       font-weight:bold;
+       border:5px;
+    }
+    .p_ar
+    {
+      text-align: right;
+    }
+    .submit
+    {
+      height:50px;
+      width:150px;
+      font-size:18pt;
+      font-weight:bold;
+    }
+body
+      {
+         background-image: url(https://static.scientificamerican.com/sciam/cache/file/A0F7CB66-9808-4518-B0E5D065AE4CFE7F_source.jpg);
+      }
+
+ </style>
+</head>
+<body>
+<div class="h">
+  <h1 id="h11">Report a location that needs enviromental help</h1>
+  <h1 id="h12">قم بالتبليغ عن موقع بحاجة للحماية البيئية</h1>
+</div>
+<form >
+ <div class="ar">
+    <div class="ea">
+      <p class="p_ar">:اسم الموقع</p>
+      <input type="text" name="locaion">
+    </div>
+   <div class="ea">
+      <p class="p_ar">: نوع المشكلة </p>
+      <textarea name="type of proplem:"placeholder="أدخل المشكلة هنا"></textarea>
+   </div>
+   <div class="ea">
+     <p class="p_ar">إرفاق صور</p>
+     <input  type="file" name="picture"class="pic">
+   </div>
+   <div class="ea">
+     <p class="p_ar">إرفاق رابط خريطة جوجل</p>
+     <input  type="url" name="url">
+   </div>
+   <div class="ea">
+      <p class="p_ar">:ملاحظة </p>
+    <textarea name="comment"placeholder="أدخل ملاحظتك هنا"></textarea>
+   </div>
+ <input type="submit"value="إرسال"class="submit">
+ </div>
+ <div class="en">
+   <div class="ea">
+     <p class="p_en"> Location name:</p>
+     <input type="text" name="locaion">
+   </div>
+  <div class="ea">
+     <p class="p_en">Type of proplem:</p>
+   <textarea name="type of proplem"placeholder="enter the proplem here"></textarea>
+  </div>
+  <div class="ea">
+    <p class="p_en">Upload picture</p>
+    <input  type="file" name="picture"class="pic">
+  </div>
+  <div class="ea">
+    <p class="p_en"> Google map link </p>
+    <input  type="url" name="url">
+  </div>
+  <div class="ea">
+     <p class="p_en">Comment </p>
+   <textarea name="comment"placeholder="enter your note here"></textarea>
+  </div>
+   <input type="submit"value="submit"class="submit">
+ </div>
+ </form>
+</body>
+</html>
